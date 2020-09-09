@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3256" started-at="2020-09-09T03:46:28 IST" finished-at="2020-09-09T03:46:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3256" started-at="2020-09-09T03:46:28 IST" finished-at="2020-09-09T03:46:31 IST">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.LoginTest@4232c52b]" name="setUp" is-config="true" duration-ms="22572" started-at="2020-09-09T03:46:05 IST" finished-at="2020-09-09T03:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.LoginTest@4232c52b]" name="loginAsBankManager" duration-ms="3187" started-at="2020-09-09T03:46:28 IST" finished-at="2020-09-09T03:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@4232c52b]" name="tearDown" is-config="true" duration-ms="1552" started-at="2020-09-09T03:46:31 IST" finished-at="2020-09-09T03:46:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
