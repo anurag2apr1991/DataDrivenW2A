@@ -11,13 +11,10 @@ public class BankManagerLoginTest extends TestBase {
 	public void loginAsBankManager() throws InterruptedException {
 		driver.findElement(By.xpath(OR.getProperty("bmlBtn"))).click();
 		
-		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn"))),"Login not successful");
+		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("bmlBtn"))),"Login not successful");
 		//Thread.sleep(3000);
 		log.debug("Login Successfully executed");
 	}
 	
-	@Test
-	public void AddCustomerVerify() {
-		
-	}
+
 }
